@@ -2,14 +2,14 @@ import java.util.ArrayList;
 
 public class BucksFizz {
 
-    private ArrayList<Integer> numbers;
+    private int numbers;
 
 
-    public BucksFizz(ArrayList<Integer> numbers){
+    public BucksFizz(int numbers){
         this.numbers = numbers;
     }
 
-    public ArrayList<Integer> getGetNumbers() {
+    public int getNumbers() {
         return this.numbers;
     }
 
